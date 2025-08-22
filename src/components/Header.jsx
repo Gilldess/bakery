@@ -3,6 +3,10 @@ import { AiOutlineClockCircle, AiOutlineHeart } from "react-icons/ai";
 import { FaStar } from "react-icons/fa";
 import { GiAchievement } from "react-icons/gi";
 import { HiOutlineSearch, HiOutlineShoppingCart } from "react-icons/hi";
+import img from "../assets/img.jpg";
+import img1 from "../assets/img1.jpg";
+import img2 from "../assets/img2.jpg";
+import img3 from "../assets/img3.jpg";
 
 export default function Header() {
   const products = [
@@ -10,42 +14,42 @@ export default function Header() {
       id: 1,
       name: "Cup cake",
       rate: "4.5",
-      image: "/src/assets/img.jpg",
+      image: img,
       price: 50000,
     },
     {
       id: 2,
       name: "Cake birthday",
       rate: "3.4",
-      image: "/src/assets/img1.jpg",
+      image: img1,
       price: 100000,
     },
     {
       id: 5,
       name: "Cake birthday",
       rate: "4.2",
-      image: "/src/assets/img1.jpg",
+      image: img1,
       price: 100000,
     },
     {
       id: 3,
       name: "Cup dringk",
       rate: "3.5",
-      image: "/src/assets/img2.jpg",
+      image: img2,
       price: 80000,
     },
     {
       id: 4,
       name: "Hot coffee",
       rate: "4.5",
-      image: "/src/assets/img3.jpg",
+      image: img3,
       price: 60000,
     },
     {
       id: 6,
       name: "Hot coffee",
       rate: "5",
-      image: "/src/assets/img3.jpg",
+      image: img3,
       price: 60000,
     },
   ];
@@ -60,16 +64,10 @@ export default function Header() {
             <span className="font-serif font-bold text-xl">Bakrey Dest</span>
           </div>
           <nav className="hidden lg:flex items-center gap-9">
-            <a
-              href="#home"
-              className="hover:text-primary transition-colors"
-            >
+            <a href="#home" className="hover:text-primary transition-colors">
               Home
             </a>
-            <a
-              href="#product"
-              className="hover:text-primary transition-colors"
-            >
+            <a href="#product" className="hover:text-primary transition-colors">
               Product
             </a>
             <a
@@ -78,10 +76,7 @@ export default function Header() {
             >
               About
             </a>
-            <a
-              href="#footer"
-              className="hover:text-primary transition-colors"
-            >
+            <a href="#footer" className="hover:text-primary transition-colors">
               Contact
             </a>
           </nav>
@@ -226,9 +221,7 @@ export default function Header() {
             <div>
               <div className="flex items-center space-x-2 mb-4">
                 <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center">
-                  <span className="text-white font-bold text-sm">
-                    B
-                  </span>
+                  <span className="text-white font-bold text-sm">B</span>
                 </div>
                 <span className="text-xl font-bold">Bakery Dest</span>
               </div>
